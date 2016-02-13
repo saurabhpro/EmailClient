@@ -7,16 +7,16 @@
 --%>
 <%@ page import="javax.mail.Message" %>
 <%@ page import="javax.mail.MessagingException,javax.mail.Session" %>
+<%@ page import="javax.mail.Transport" %>
 <%@ page import="javax.mail.internet.InternetAddress" %>
 <%@ page import="javax.mail.internet.MimeMessage" %>
 <%@ page import="java.util.Properties" %>
-<%@ page import="javax.mail.Transport" %>
 
 <%
     String result;
     // Recipient's email ID needs to be mentioned.
-    //  String to = "amrita.arora.1192@gmail.com";
-    String to = "saurabhk1511@gmail.com";
+      String to = "amrita.arora.1192@gmail.com";
+    //String to = "saurabhk1511@gmail.com";
 
     // Sender's email ID needs to be mentioned
     String from = "sample.id1192@gmail.com";
